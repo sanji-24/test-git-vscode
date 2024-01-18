@@ -3,7 +3,8 @@ num = 67
 # To take input from the user
 #num = int(input("Enter a number: "))
 # define a flag variable
-flag = False
+# Sandeep-Singh
+flag = True
 if num == 1:
 print(num, "is not a prime number")
 elif num > 1:
@@ -11,7 +12,7 @@ elif num > 1:
 for i in range(2, num):
 if (num % i) == 0:
 # if factor is found, set flag to True
-flag = True
+flag = False
 # break out of loop
 break
 # check if flag is True
